@@ -7,7 +7,10 @@ def calculate_with_inflation(current_value, inflation_rate, years):
     return current_value * ((1 + inflation_rate) ** years)
 
 # App Title
-st.title("Expense Tracker and Insurance Recommendation App with Inflation Adjustment")
+st.title("Captial Guard")
+
+# Description
+st.header("This app will help you gain a better understanding of where you stand financially based on your monthly earnings vs expenses!")
 
 # Step 1: Input Monthly Income
 st.header("Step 1: Enter your monthly income")
